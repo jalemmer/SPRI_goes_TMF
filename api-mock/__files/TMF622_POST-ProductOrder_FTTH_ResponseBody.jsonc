@@ -1,0 +1,25 @@
+{
+  "id": "2fceaa9d-937e-43df-973d-1ab592f1d414",
+  "href": "http://localhost:8080/tmf-api/productOrderingManagement/v4/productOrder/ceb3bd85-0159-4c63-8f00-a5050a14d9f9",
+  "cancellationDate": null,
+  "cancellationReason": null,
+  "category": "FTTH",
+  "description": "Order for a FTTH-connected BSA product",
+  "externalId": "",
+  "notificationContact": "",
+  "priority": "",
+  "requestedCompletionDate": "",
+  "requestedStartDate": "",
+  "agreement": [AgreementRef],
+  "productOfferingQualification": [ProductOfferingQualificationRef],
+  "productOrderItem": [ProductOrderItem],
+  "note": [],
+  "relatedParty": [],
+  "@type": "ProductOrder"
+
+  // "billingAccount": null,
+  // "channel": [],
+  // "orderTotalPrice": [],
+  // "payment": [],
+  // "quote": []
+}

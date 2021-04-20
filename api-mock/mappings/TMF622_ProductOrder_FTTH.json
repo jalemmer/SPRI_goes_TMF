@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/tmf-api/productOrderingManagement/v4/productOrder"
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "TMF622_POST-ProductOrder_FTTH_ResponseBody.jsonc",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["body-transformer"]
+  }
+}
