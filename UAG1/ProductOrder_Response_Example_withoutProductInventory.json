@@ -1,0 +1,123 @@
+{
+  "id": "0c0375ec-0867-4018-8398-6b3cdc846b4e",
+  "href": "https://api.spri.com/tmf-api/productOrderingManagement/v4/productOrder/0c0375ec-0867-4018-8398-6b3cdc846b4e",
+  "cancellationDate": null,
+  "cancellationReason": null,
+  "category": "BSA-FTTH",
+  "completionDate": "2022-02-03T15:05:34+01:00",
+  "description": "Bestellung BSA-FTTH Anschluss",
+  "expectedCompletionDate": "2022-02-04T00:00:00+01:00",
+  "externalId": "AT-10058756",
+  "notificationContact": "TODO",
+  "orderDate": "2022-01-15T08:23:42+01:00",
+  "priority": "TODO",
+  "requestedCompletionDate": "2022-02-04T00:00:00+01:00",
+  "requestedStartDate": "2022-01-15T08:23:40+01:00",
+  "agreement": [],
+  "billingAccount": [],
+  "channel": [],
+  "note": [],
+  "orderTotalPrice": [],
+  "payment": [],
+  "productOfferingQualification": [],
+  "productOrderItem": [
+    {
+      "id": "1",
+      "quantity": 1,
+      "action": "add",
+      "appointment": {},
+      "billingAccount": {},
+      "itemPrice": [],
+      "itemTerm": [],
+      "itemTotalPrice": [],
+      "payment": [],
+      "product": {
+        "id": "07a44049-da8a-4944-b78a-629c10460662",
+        "href": "https://api.spri.com/tmf-api/productInventory/v4/07a44049-da8a-4944-b78a-629c10460662",
+        "isBundle": false,
+        "isCustomerVisible": true,
+        "name": "BSA FTTH",
+        "orderDate": "2022-01-15T08:23:42+01:00",
+        "productSerialNumber": "20186548658",
+        "startDate": "2022-02-03T15:05:34+01:00",
+        "terminationDate": null,
+        "agreement": [],
+        "billingAccount": {},
+        "place": [
+          {
+            "role": "InstallationAddress",
+            "city": "Wittmund",
+            "country": "Deutschland",
+            "locality": "Burhafe",
+            "postcode": "26409",
+            "stateOrProvince": "Niedersachsen",
+            "streetName": "Bahnhofstr.",
+            "streetNr": "2",
+            "streetNrLast": "",
+            "streetNrLastSuffix": "",
+            "streetNrSuffix": "",
+            "streetSuffix": "",
+            "streetType": null,
+            "geographicLocation": {
+              "@type": "GeoJsonPoint",
+              "geoJson": {
+                "coordinates": [
+                  7.7057574973783,
+                  53.6010192484742
+                ],
+                "type": "Point"
+              }
+            },
+            "geographicSubAddress": [
+              {
+                "levelNumber": "2",
+                "levelType": "Floor"
+              }
+            ],
+            "@type": "GeographicAddress"
+          }
+        ],
+        "product": [],
+        "productCharacteristic": [
+          {
+            "value": 1000,
+            "valueType": "integer",
+            "name": "guaranteedMinDownstreamBandwidth",
+            "unitOfMeasurement": "Mbit/s",
+            "@schemaLocation": "https://api.spri.com/tmf-api/productInventory/v4/schemas/BandwidthCharacteristic.schema.v1.json",
+            "@baseType": "Characteristic",
+            "@type": "BandwidthCharacteristic"
+          },
+          {
+            "value": 500,
+            "valueType": "integer",
+            "name": "guaranteedMinUpstreamBandwidth",
+            "unitOfMeasurement": "Mbit/s",
+            "@schemaLocation": "https://api.spri.com/tmf-api/productInventory/v4/schemas/BandwidthCharacteristic.schema.v1.json",
+            "@baseType": "Characteristic",
+            "@type": "BandwidthCharacteristic"
+          },
+          {
+            "value": "DEU.DTAG.ABCD000000",
+            "valueType": "string",
+            "name": "Line-ID",
+            "@type": "Characteristic"
+          }
+        ],
+        "@type": "Product"
+      },
+      "productOffering": {},
+      "productOfferingQualificationItem": {},
+      "productOrderItem": [],
+      "productOrderItemRelationship": [],
+      "qualification": [],
+      "quoteItem": {},
+      "state": "completed",
+      "@type": "@ProductOrderItem"
+    }
+  ],
+  "quote": [],
+  "relatedParty": [],
+  "state": "completed",
+  "@type": "ProductOrder"
+}
