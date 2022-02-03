@@ -33,7 +33,6 @@
       "payment": [],
       "product": {
         "id": "07a44049-da8a-4944-b78a-629c10460662",
-        "href": "https://api.spri.com/tmf-api/productInventory/v4/07a44049-da8a-4944-b78a-629c10460662",
         "isBundle": false,
         "isCustomerVisible": true,
         "name": "BSA FTTH",
