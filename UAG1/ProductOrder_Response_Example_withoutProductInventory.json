@@ -101,7 +101,9 @@
             "value": "DEU.DTAG.ABCD000000",
             "valueType": "string",
             "name": "Line-ID",
-            "@type": "Characteristic"
+            "@schemaLocation": "https://api.spri.com/tmf-api/productInventory/v4/schemas/StringCharacteristic.schema.v1.json",
+            "@baseType": "Characteristic",
+            "@type": "StringCharacteristic"
           }
         ],
         "productOffering": null,
