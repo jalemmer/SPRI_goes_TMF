@@ -104,6 +104,32 @@
             "@type": "Characteristic"
           }
         ],
+        "productOffering": null,
+        "productOrderItem": [
+          {
+            "productOrderId": "0c0375ec-0867-4018-8398-6b3cdc846b4e",
+            "orderItemId": "1",
+            "productOrderHref": "https://api.spri.com/tmf-api/productOrderingManagement/v4/productOrder/0c0375ec-0867-4018-8398-6b3cdc846b4e",
+            "orderItemAction": "add",
+            "@type": "RelatedProductOrderItem",
+            "@referredType": "ProductOrder"
+          }
+        ],
+        "productPrice": [],
+        "productRelationship": [],
+        "productSpecification": {
+          "id": "0815",
+          "href": "https://api.spri.com/tmf-api/productCatalogManagement/v4/productSpecification/0815?version=1.0.0",
+          "name": "SPRI_BSA_L2_FTTH",
+          "version": "1.0.0",
+          "@referredType": "ProductSpecification",
+          "@type": "ProductSpecificationRef"
+        },
+        "productTerm": [],
+        "realizingResource": [],
+        "realizingService": [],
+        "relatedParty": [],
+        "status": "active",
         "@type": "Product"
       },
       "productOffering": {},
